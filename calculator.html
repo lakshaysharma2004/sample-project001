@@ -1,30 +1,46 @@
 <html>
-    <body>
+<style>
+    button {
+        margin: 5px;
+        padding: 20px;
+        border-radius: 6px;
+    }
+
+    .container {
+        border: 2px;
+        height: 200px;
+        text-align: center;
+
+    }
+</style>
+
+<body>
+    <div class="container">
         <h1> Simple Calculator </h1>
-        <input type= "number">  </input> <br >
-        <button> Clear </button>
-        <button> % </button>
-        <button> Del </button>
-        <button> / </button>
+        <input type="number" style="width: 248px;height: 60px;background-color: lightgreen;"> </input> <br>
         <br>
-        <button> 7 </button> 
-        <button> 8 </button>
+        <button style="color: black;background-color: lightgray;width: 115px;"> DEL </button>
+        <button style="color: red;background-color: lightgray;width: 115px;"> AC </button>
+        <br>
+        <button class="temp"> 7 </button>
+        <button class="temp"> 8 </button>
         <button> 9 </button>
-        <button> * </button> 
+        <button style="background-color: lightgrey;"> / </button>
         <br>
         <button> 4 </button>
         <button> 5 </button>
         <button> 6 </button>
-        <button> + </button>
+        <button style="background-color: lightgrey;"> * </button>
         <br>
         <button> 1 </button>
         <button> 2 </button>
         <button> 3 </button>
-        <button> - </button>
+        <button style="background-color: lightgrey;"> - </button>
         <br>
-        <button> 00 </button>
         <button> 0 </button>
         <button> . </button>
-        <button> = </button>
-    </body>
+        <button style="background-color: lightblue;"> = </button>
+        <button style="background-color: lightgrey;"> + </button>
+    </div>
+</body>
 </html>
