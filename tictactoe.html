@@ -1,29 +1,57 @@
 <html>
     <style>
-        .container {
-            border: none;
-            margin: 0 auto;
-            height: 30%;
-            width: 40%;
+        body{
             display: flex;
-            font-size: larger;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            width: 100%;
         }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            height: 80%;
+            width: 80%;
+        }
+        .board{
+            border-collapse: collapse;
+            margin: 0 auto;
+            height: 80%;
+            width: 80%;
+        }
+        .cell{
+            padding: 2px;
+            display: flex;
+            
+            margin: 0;
+            height:50%;
+            width: 50%;
+        }
+        
     </style>
     <body>
         <div class="container">
-            <input type="text">
-            <input type="text">
-            <input type="text"> 
-        </div>
-        <div class="container">
-            <input type="text">
-            <input type="text">
-            <input type="text">
-        </div>
-        <div class="container">
-            <input type="text">
-            <input type="text">
-            <input type="text">
+            <table class="board">
+                <tr>
+                    <td class="cell">1</td>
+                    <td class="cell">2</td>
+                    <td class="cell">3</td>
+                </tr>
+                <tr>
+                    <td class="cell">3</td>
+                    <td class="cell">3</td>
+                    <td class="cell">4</td>
+                </tr>
+                <tr>
+                    <td class="cell">5</td>
+                    <td class="cell">6</td>
+                    <td class="cell">7</td>
+                </tr>
+            </table>
         </div>
     </body>
 </html>
+
+           
